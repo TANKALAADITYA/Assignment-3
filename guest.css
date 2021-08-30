@@ -1,0 +1,28 @@
+ul { position: relative;
+list-style-type: none;
+    margin-top: 40px;
+    left: 400px;
+    width: 40%;
+    height: 70px;
+    border: 1px solid;
+    background: #3b6886;
+    border-radius: 25px;
+    font-size: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(166, 189, 182);
+    
+}
+a{  position: relative;
+    left: 140px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(210, 216, 219);
+    justify-content: center;
+    
+}
+ 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            function openlink(){
+               window.open("main.html")
+            }
+        </script>   
+    </head>
+    <body>
+        <div class="center">
+            <h1>University
+                E-book Management
+            </h1>
+            <form method="post">
+                <div class="text_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <br/>
+                <div class="text_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <br/>
+                <div class="pass">
+                     Forgot password?
+                     <br/><br/>
+                     <input type="submit" value="Login" onclick="openlink()">
+                </div>
+                
+                <div class="signup">
+                    Not a member?<a href="#">Signup</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
